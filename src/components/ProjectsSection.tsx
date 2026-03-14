@@ -8,19 +8,19 @@ const projects = [
       {
         title: "StudyHub",
         description: "An AI-powered study platform designed to help students organize resources, generate study materials, and boost learning efficiency.",
-        github: "#",
-        demo: "#",
+        github: "https://github.com/Nithish-Kum/STUDY-HUB",
+        demo: "https://study-hub-amber-tau.vercel.app/",
       },
       {
         title: "FixMyCity",
         description: "A civic engagement platform that lets citizens report local infrastructure issues and track their resolution using AI-driven categorization.",
         github: "#",
-        demo: "#",
+        demo: "https://fix-my-city-7icb.vercel.app/",
       },
     ],
   },
   {
-    category: "Data Analytics (Excel)",
+    category: "Data Analytics",
     items: [
       {
         title: "Sales Dashboard",
@@ -50,8 +50,8 @@ const projects = [
       {
         title: "GPA Calculator Web App",
         description: "A clean, responsive web application to calculate semester and cumulative GPA with an intuitive interface.",
-        github: "#",
-        demo: "#",
+        github: "https://github.com/Nithish-Kum/GPA-app",
+        demo: "https://gpa-app-beta.vercel.app/",
       },
     ],
   },

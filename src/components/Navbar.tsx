@@ -49,7 +49,11 @@ const Navbar = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className={`text-sm font-medium transition-colors duration-300 ${activeSection === item.href.slice(1) ? 'text-foreground gradient-text' : 'text-muted-foreground hover:text-foreground'}`}
+                className={`text-sm font-medium transition-all duration-300 ${
+                  activeSection === item.href.slice(1)
+                    ? 'text-foreground gradient-text drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]'
+                    : 'text-muted-foreground hover:text-neon-blue hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]'
+                }`}
               >
                 {item.label}
               </a>
@@ -70,8 +74,12 @@ const Navbar = () => {
         {mobileOpen && (
           <div className="md:hidden glass-card mt-2 mx-4 p-4 rounded-lg">
             {navItems.map(item => (
-              <a key={item.href} href={item.href} onClick={() => setMobileOpen(false)}
-                className="block py-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <a
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileOpen(false)}
+                className="block py-2 text-sm text-muted-foreground hover:text-neon-blue hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)] transition-all duration-300"
+              >
                 {item.label}
               </a>
             ))}

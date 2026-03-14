@@ -121,22 +121,36 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
-          <p className="text-neon-blue font-mono text-sm md:text-base mb-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Hello, I'm
-          </p>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            <span className="gradient-text">Rachakonda</span>
-            <br />
-            <span className="text-foreground">Nithish Kumar</span>
-          </h1>
-          <div className="text-lg md:text-xl mb-8 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            <TypingText />
+        <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+          {/* Text block */}
+          <div className="max-w-3xl">
+            <p className="text-neon-blue font-mono text-sm md:text-base mb-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              Hello, I'm
+            </p>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+              <span className="gradient-text">Rachakonda</span>
+              <br />
+              <span className="text-foreground">Nithish Kumar</span>
+            </h1>
+            <div className="text-lg md:text-xl mb-8 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+              <TypingText />
+            </div>
+            <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
+              <a href="#projects" className="btn-gradient text-sm md:text-base">View Projects</a>
+              <a href="#contact" className="btn-outline-glow text-sm md:text-base">Contact Me</a>
+              <a href="#about" className="btn-outline-glow text-sm md:text-base">About Me</a>
+            </div>
           </div>
-          <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
-            <a href="#projects" className="btn-gradient text-sm md:text-base">View Projects</a>
-            <a href="#contact" className="btn-outline-glow text-sm md:text-base">Contact Me</a>
-            <a href="#about" className="btn-outline-glow text-sm md:text-base">About Me</a>
+
+          {/* Profile image on the right, like LinkedIn avatar */}
+          <div className="shrink-0 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
+            <div className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full border-4 border-neon-blue/60 shadow-[0_0_35px_rgba(33,150,243,0.8)] overflow-hidden bg-black/50 backdrop-blur-sm">
+              <img
+                src="/profile.jpg"
+                alt="Profile picture"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
