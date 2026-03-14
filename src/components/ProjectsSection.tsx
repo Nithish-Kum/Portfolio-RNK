@@ -14,7 +14,7 @@ const projects = [
       {
         title: "FixMyCity",
         description: "A civic engagement platform that lets citizens report local infrastructure issues and track their resolution using AI-driven categorization.",
-        github: "#",
+        github: "https://github.com/tanishqroym-commits/Fix_My_City",
         demo: "https://fix-my-city-7icb.vercel.app/",
       },
     ],
