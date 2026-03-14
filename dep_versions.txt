@@ -1,0 +1,199 @@
+vite_react_shadcn_ts@0.0.0 C:\Users\vemul\Downloads\neon-dev-space-main
+├─┬ @radix-ui/react-accordion@1.2.11
+│ ├─┬ @radix-ui/react-collection@1.1.7
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-compose-refs@1.1.2
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-context@1.1.2
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-direction@1.1.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-id@1.1.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-primitive@2.1.3
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-use-controllable-state@1.2.2
+│ │ ├─┬ @radix-ui/react-use-effect-event@0.0.2
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-alert-dialog@1.1.14
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-aspect-ratio@1.1.7
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-avatar@1.1.10
+│ ├─┬ @radix-ui/react-use-callback-ref@1.1.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-use-is-hydrated@0.1.0
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-use-layout-effect@1.1.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-checkbox@1.3.2
+│ ├─┬ @radix-ui/react-presence@1.1.4
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-use-previous@1.1.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-use-size@1.1.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-collapsible@1.1.11
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-context-menu@2.2.15
+│ ├─┬ @radix-ui/react-menu@2.1.15
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-dialog@1.1.14
+│ ├─┬ @radix-ui/react-dismissable-layer@1.1.10
+│ │ ├─┬ @radix-ui/react-use-escape-keydown@1.1.1
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-focus-guards@1.1.2
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-focus-scope@1.1.7
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ @radix-ui/react-portal@1.1.9
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ react-remove-scroll@2.7.1
+│ │ ├─┬ react-remove-scroll-bar@2.3.8
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ ├─┬ react-style-singleton@2.2.3
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ ├── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ │ ├─┬ use-callback-ref@1.3.3
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ └─┬ use-sidecar@1.1.3
+│ │   └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-dropdown-menu@2.1.15
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-hover-card@1.1.14
+│ ├─┬ @radix-ui/react-popper@1.2.7
+│ │ ├─┬ @floating-ui/react-dom@2.1.4
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ ├─┬ @radix-ui/react-arrow@1.1.7
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ ├─┬ @radix-ui/react-use-rect@1.1.1
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-label@2.1.7
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-menubar@1.1.15
+│ ├─┬ @radix-ui/react-roving-focus@1.1.10
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-navigation-menu@1.2.13
+│ ├─┬ @radix-ui/react-visually-hidden@1.2.3
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-popover@1.1.14
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-progress@1.1.7
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-radio-group@1.3.7
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-scroll-area@1.2.9
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-select@2.2.5
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-separator@1.1.7
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-slider@1.3.5
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-slot@1.2.3
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-switch@1.2.5
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-tabs@1.1.12
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-toast@1.2.14
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-toggle-group@1.1.10
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-toggle@1.1.9
+│ └── react@18.3.1 deduped
+├─┬ @radix-ui/react-tooltip@1.2.7
+│ └── react@18.3.1 deduped
+├─┬ @react-three/drei@10.7.7
+│ ├─┬ @monogrid/gainmap-js@3.4.0
+│ │ └── three@0.183.2 deduped
+│ ├── @react-three/fiber@9.5.0 deduped
+│ ├─┬ @use-gesture/react@10.3.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ camera-controls@3.1.2
+│ │ └── three@0.183.2 deduped
+│ ├─┬ maath@0.10.8
+│ │ └── three@0.183.2 deduped
+│ ├─┬ meshline@3.3.1
+│ │ └── three@0.183.2 deduped
+│ ├── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei
+│ ├─┬ stats-gl@2.4.2
+│ │ └── three@0.170.0
+│ ├─┬ suspend-react@0.1.3
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ ├─┬ three-mesh-bvh@0.8.3
+│ │ └── three@0.183.2 deduped
+│ ├─┬ three-stdlib@2.36.1
+│ │ └── three@0.183.2 deduped
+│ ├── three@0.183.2 deduped
+│ ├─┬ troika-three-text@0.52.4
+│ │ ├── three@0.183.2 deduped
+│ │ └─┬ troika-three-utils@0.52.4
+│ │   └── three@0.183.2 deduped
+│ ├─┬ tunnel-rat@0.1.2
+│ │ └─┬ zustand@4.5.7
+│ │   └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ ├─┬ use-sync-external-store@1.5.0
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └─┬ zustand@5.0.11
+│   └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ @react-three/fiber@9.5.0
+│ ├─┬ its-fine@2.0.0
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ ├─┬ react-use-measure@2.1.7
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ ├── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── three@0.183.2 deduped
+├─┬ @tanstack/react-query@5.83.0
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ @testing-library/react@16.3.2
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ cmdk@1.1.1
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ embla-carousel-react@8.6.0
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ input-otp@1.4.2
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ lucide-react@0.462.0
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ next-themes@0.3.0
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ react-day-picker@8.10.1
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ react-dom@18.3.1 invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ react-hook-form@7.61.1
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ react-resizable-panels@2.1.9
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ react-router-dom@6.30.1
+│ ├─┬ react-router@6.30.1
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├── react@18.3.1 invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ recharts@2.15.4
+│ ├─┬ react-smooth@4.0.4
+│ │ ├─┬ react-transition-group@4.4.5
+│ │ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ │ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber, "^19.0.0" from node_modules/its-fine
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├─┬ sonner@1.7.4
+│ └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+├── three@0.183.2
+└─┬ vaul@0.9.9
+  └── react@18.3.1 deduped invalid: "^19" from node_modules/@react-three/drei, ">=19 <19.3" from node_modules/@react-three/fiber
+
+npm error code ELSPROBLEMS
+npm error invalid: react@18.3.1 C:\Users\vemul\Downloads\neon-dev-space-main\node_modules\react
+npm error A complete log of this run can be found in: C:\Users\vemul\AppData\Local\npm-cache\_logs\2026-03-13T17_06_36_816Z-debug-0.log
